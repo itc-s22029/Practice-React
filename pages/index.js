@@ -1,16 +1,12 @@
-export default function Home () {
+import Hero from 'components/hero'
+
+function Home () {
   return (
-    <>
-      <header>HEADER</header>
-
-      <main>
-        <div>
-          <h1>CUBE</h1>
-          <p>アウトプット</p>
-        </div>
-      </main>
-
-      <footer>FOOTER</footer>
-    </>
+    <Hero
+      title='CUBE'
+      subtitle='output'
+    />
   )
 }
+
+export default Home
