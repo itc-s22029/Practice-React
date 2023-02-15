@@ -5,6 +5,7 @@ function Home () {
     <Hero
       title='CUBE'
       subtitle='output'
+      imageOn
     />
   )
 }
