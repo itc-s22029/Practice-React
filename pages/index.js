@@ -1,12 +1,15 @@
+import Container from 'components/container'
 import Hero from 'components/hero'
 
 function Home () {
   return (
-    <Hero
-      title='CUBE'
-      subtitle='output'
-      imageOn
-    />
+    <Container>
+      <Hero
+        title='CUBE'
+        subtitle='output'
+        imageOn
+      />
+    </Container>
   )
 }
 

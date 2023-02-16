@@ -1,21 +1,22 @@
 import Link from 'next/link'
+import styles from 'styles/nav.module.css'
 
 function Nav () {
   return (
     <nav>
-      <ul>
+      <ul className={styles.list}>
         <li>
-          <Link href='/'>
+          <Link href='/' legacyBehavior>
             Home
           </Link>
         </li>
         <li>
-          <Link href='/about'>
+          <Link href='/about' legacyBehavior>
             About
           </Link>
         </li>
         <li>
-          <Link href='/blog'>
+          <Link href='/blog' legacyBehavior>
             Blog
           </Link>
         </li>
