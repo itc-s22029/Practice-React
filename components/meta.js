@@ -35,12 +35,12 @@ function Meta ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) {
       <link rel='canonical' href={url} />
       <meta property='og:url' content={url} />
 
-      <link rel='icon' href={siteIcon} />
-      <link rel='apple-touch-icon' href={siteIcon} />
-
       <meta property='og:site_name' content={siteTitle} />
       <meta property='og:type' content={siteType} />
       <meta property='og:locale' content={siteLocale} />
+
+      <link rel='icon' href={siteIcon} />
+      <link rel='apple-touch-icon' href={siteIcon} />
 
       <meta property='og:image' content={imgUrl} />
       <meta property='og:image:width' content={imgW} />
