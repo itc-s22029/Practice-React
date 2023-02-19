@@ -1,1 +1,1 @@
-finished chapter6 of ReactText.
+finished chapter8 of ReactText.
