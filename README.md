@@ -1,2 +1,1 @@
-finished chapter8 of ReactText.
-git checkout 
+finished chapter10 of ReactText.
