@@ -49,6 +49,11 @@ function Nav () {
             <a onClick={closeNav}>Blog</a>
           </Link>
         </li>
+        <li>
+          <Link href='/poke' legacyBehavior>
+            <a onClick={closeNav}>API</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
